@@ -1,0 +1,39 @@
+{
+  "fishes": [
+    {
+      "id": 1,
+      "name": "NEONKA OBECNÁ",
+      "type": "malá"
+    },
+    {
+      "id": 2,
+      "name": "GUPPY",
+      "type": "malá"
+    },
+    {
+      "id": 3,
+      "name": "MOLLY",
+      "type": "velká"
+    },
+    {
+      "name": "MEČOVKA",
+      "type": "malá",
+      "id": 4
+    },
+    {
+      "name": "ANCISTRUS",
+      "type": "velká",
+      "id": 5
+    },
+    {
+      "name": "RAMIREZI",
+      "type": "malá",
+      "id": 6
+    },
+    {
+      "name": "TETRA ČERNÁ",
+      "type": "velká",
+      "id": 7
+    }
+  ]
+}

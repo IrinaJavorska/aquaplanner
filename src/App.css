@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.aquarium-design {
+  background-color: #f0f8ff; /* Light blue background */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.aquarium-design h3 {
+  color: #333; /* Dark grey color for text */
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.aquarium-design p {
+  color: #555; /* Lighter grey for paragraph */
+  line-height: 1.5; /* Spacing for readability */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.aquarium-design div {
+  margin-top: 20px;
+}
+
+.aquarium-design input[type="number"] {
+  margin: 0 10px 0 5px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 4px;
+}
+
+.aquarium-design button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.aquarium-design button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.aquarium-dem {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
 }

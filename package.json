@@ -1,8 +1,10 @@
 {
+  "homepage": "http://alaeva-irina.cz.srvb1.endora.cz/projects/aquaplanner",
   "name": "aquaplanner",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/roboto": "^5.0.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

@@ -1,0 +1,16 @@
+.fish-form {
+  display: flex;
+  width: 500px;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fish-size {
+  display: flex;
+  width: 150px;
+  height: 35px;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
